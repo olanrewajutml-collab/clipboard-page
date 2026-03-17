@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bai Jamjuree";
+   
+}
+
+/* HEADER */
+header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+
+    img {
+        width: 80px;
+    }
+}
+
+/* HISTORY */
+.history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    gap: 20px;
+
+    h2{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+    }
+
+    p{
+        font-family: 10px;
+        color: hsl(201, 11%, 66%);
+    }
+
+    div {
+        display: flex;
+        gap: 20px;
+
+        .ios {
+            text-decoration: none;
+            color: white;
+            background-color: hsl(171, 66%, 44%);
+            padding: 10px 20px;
+            border-radius: 16px;
+        }
+
+        .mac{
+            text-decoration: none;
+            color: white;
+            background-color: hsl(233, 100%, 69%);
+            padding: 10px 20px;
+            border-radius: 16px;
+        }
+    }
+}
+
+
+/* SNIPPETS */
+.snippet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+   
+
+    h2{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+    }
+
+     p{
+        font-family: 16px;
+        color: hsl(201, 11%, 66%);
+        line-height: 1.5;
+    }
+}
+
+.snippet-div {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.snippet-div-text {
+    text-align: start;
+
+    div {
+        margin: 40px 0;
+
+        h3 {
+            font-size: 16px;
+            color:hsl(210, 10%, 33%); ;
+        }
+
+        p{
+            font-size: 12px;
+            color: hsl(201, 11%, 66%);
+        }
+    }
+}
+
+/* CLIPBOARD */
+.clipboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    gap: 20px;
+
+   h2{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+    }
+
+     p{
+        font-family: 16px;
+        color: hsl(201, 11%, 66%);
+        line-height: 1.5;
+    }
+
+    img{
+        margin-top: 50px;
+    }
+}
+
+
+/* SUPERCHARGE */
+
+.super-charge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    gap: 20px;
+
+    h2{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+    }
+
+     p{
+        font-family: 16px;
+        color: hsl(201, 11%, 66%);
+        line-height: 1.5;
+    }
+}
+
+.supercharge-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+        h3{
+            color:hsl(210, 10%, 33%);
+            font-size: 16px;
+        }
+
+        img{
+            width: 30px;
+        }
+
+        p{
+            color:hsl(201, 11%, 66%);
+            font-size: 14px;
+        }
+    }
+
+}
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 100px 0;
+    
+}
+
+.clipboard-ios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+     h2{
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+    }
+
+     p{
+            color:hsl(201, 11%, 66%);
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        div{
+            .ios2{
+            text-decoration: none;
+            color: white;
+            background-color: hsl(171, 66%, 44%);
+            padding: 10px 20px;
+            border-radius: 16px;
+        }
+
+        .mac2{
+            text-decoration: none;
+            color: white;
+            background-color: hsl(233, 100%, 69%);
+            padding: 10px 20px;
+            border-radius: 16px;
+        }
+        }
+}
+
+.footer{
+   background-color:hsl(201, 11%, 66%) ;
+   display: flex;
+   margin-top: 100px;
+   padding: 50px;
+   justify-content: space-around;
+   align-items: center;
+   
+
+   img{
+    width: 50px;
+   }
+
+   .faq{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+    a{
+        text-decoration: none;
+        color: hsl(210, 10%, 33%);
+        font-weight: 500;
+    }
+
+   
+    
+   }
+
+   .faq-img {
+    display: flex;
+    gap: 30px;
+    
+    img {
+        width: 20px;
+    }
+   }
+}
