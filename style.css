@@ -277,3 +277,138 @@ header{
     }
    }
 }
+
+
+/* RESPONSIVE DESIGN FOR MOBILE */
+
+@media screen and (max-width: 576px) {
+    body {
+        width: 100%;
+    }
+
+    .history{
+        width: 70%;
+        margin: 0 auto 100px auto;
+
+         div {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    }
+
+       .ios2{
+            text-decoration: none;
+            color: white;
+            background-color: hsl(171, 66%, 44%);
+            padding: 15px 20px;
+            border-radius: 24px;
+            font-size: 20px;
+        }
+
+        .mac2{
+            text-decoration: none;
+            color: white;
+            background-color: hsl(233, 100%, 69%);
+            padding: 15px 20px;
+            border-radius: 24px;
+            font-size: 20px;
+        }
+/* SNIPPET */
+   .snippet {
+    width: 70%;
+    margin: 0 auto 100px auto;
+
+    .snippet-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+
+        h3{
+            font-size: 24px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+   }
+
+   /* CLIPBOARD */
+   .clipboard{
+    width: 70%;
+    margin: 0 auto;
+
+     img {
+    width: 100%;
+   }
+
+   }
+
+  
+
+
+   /* SUPERCHARGE */
+   .super-charge {
+        width: 70%;
+        margin: 100px auto;
+
+        .supercharge-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+
+            h3{
+                font-size: 24px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+
+   }
+   
+   .logos {
+    display: flex;
+    flex-direction: column;
+   }
+
+   
+   .clipboard-ios {
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+   }
+
+   .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    .faq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   }
+}
